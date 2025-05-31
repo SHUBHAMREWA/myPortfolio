@@ -46,7 +46,7 @@ import rgpvImg    from  "./assets/education_logo/rgpv.png" ;
 // Project Section Logo's 
 import aiproject from "./assets/work_logo/aiproject.png"  ;
 import hotelmanagement from "./assets/work_logo/hotelmanagement.png" ;
-import todo  from  "./assets/work_logo/toDoApp.png"  ;
+import todo  from  "./assets/work_logo/todoApp.png"  ;
 
 
 export const SkillsInfo = [
@@ -221,7 +221,7 @@ export const SkillsInfo = [
       title: "to do app",
       description:
         "Todo app for normal Task view create , and delete using html css Javascript.",
-      image:todo ,
+      image: todo ,
       tags: ["html" , "css" , "js"],
       github: "https://github.com/SHUBHAMREWA/toDoApp.git",
       webapp: "https://todoappshubham.netlify.app/",
