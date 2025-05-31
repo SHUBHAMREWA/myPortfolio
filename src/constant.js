@@ -46,7 +46,7 @@ import rgpvImg    from  "./assets/education_logo/rgpv.png" ;
 // Project Section Logo's 
 import aiproject from "./assets/work_logo/aiproject.png"  ;
 import hotelmanagement from "./assets/work_logo/hotelmanagement.png" ;
-import todo  from  "./assets/work_logo/todoApp.png"  ;
+import todo  from  "./assets/work_logo/todoapp.png"  ;
 
 
 export const SkillsInfo = [
