@@ -47,6 +47,7 @@ import rgpvImg    from  "./assets/education_logo/rgpv.png" ;
 import aiproject from "./assets/work_logo/aiproject.png"  ;
 import hotelmanagement from "./assets/work_logo/hotelmanagement.png" ;
 import todo  from  "./assets/work_logo/todoapp.png"  ;
+import gitdetective from "./assets/work_logo/githubdetective.png"
 
 
 export const SkillsInfo = [
@@ -201,7 +202,7 @@ export const SkillsInfo = [
       title: "Github Account Detective",
       description:
         " A modern web application that allows users to search and view detailed GitHub profiles. Built with React and the GitHub API, this tool provides a clean and intuitive interface to explore GitHub user information. ",
-      image: aiproject ,
+      image: gitdetective ,
       tags: ["React JS", "HTML", "CSS", "JavaScript"  ,"API handling"],
       github: "https://github.com/SHUBHAMREWA/Git-profile-detective.git",
       webapp: "https://git-profile-detective.vercel.app/" ,
