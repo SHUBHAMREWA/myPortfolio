@@ -198,6 +198,16 @@ export const SkillsInfo = [
 
     {
       id: 0,
+      title: "Github Account Detective",
+      description:
+        " A modern web application that allows users to search and view detailed GitHub profiles. Built with React and the GitHub API, this tool provides a clean and intuitive interface to explore GitHub user information. ",
+      image: aiproject ,
+      tags: ["React JS", "HTML", "CSS", "JavaScript"  ,"API handling"],
+      github: "https://github.com/SHUBHAMREWA/Git-profile-detective.git",
+      webapp: "https://git-profile-detective.vercel.app/" ,
+    },
+    {
+      id: 1,
       title: "Ai chat Bot",
       description:
         "This AI chatbot is built using React (Vite) and styled with Tailwind CSS. It uses the Google Gemini API to fetch responses. Features include chat history with localStorage, dark/light mode, auto-scroll, and Enter key support for input. The app uses React Hooks for state management and offers a smooth, responsive chat experience.",
@@ -207,7 +217,7 @@ export const SkillsInfo = [
       webapp: "https://shubhamrewa.github.io/AiTool/" ,
     },
     {
-      id: 1,
+      id: 2,
       title: "Hotel Management",
       description:
         "The Hotel Management System is a simple web application built using Vanilla JavaScript, HTML, and CSS. It allows users to sign up, log in, and manage hotel operations like customer check-in/check-out, room booking, and payment recording. Admins can access a panel to manage customers, rooms, and bookings, with reports on total bookings and revenue. All data is stored in the browser using localStorage to ensure it persists across sessions. Basic CSS and Bootstrap are used for styling and layout.",
@@ -217,7 +227,7 @@ export const SkillsInfo = [
       webapp: "https://shubhamsproject.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "to do app",
       description:
         "Todo app for normal Task view create , and delete using html css Javascript.",
