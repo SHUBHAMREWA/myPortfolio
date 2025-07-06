@@ -47,8 +47,8 @@ import rgpvImg    from  "./assets/education_logo/rgpv.png" ;
 import aiproject from "./assets/work_logo/aiproject.png"  ;
 import hotelmanagement from "./assets/work_logo/hotelmanagement.png" ;
 import todo  from  "./assets/work_logo/todoapp.png"  ;
-import gitdetective from "./assets/work_logo/githubdetective.png"
-
+import gitdetective from "./assets/work_logo/githubdetective.png"  ;
+import adminpanel from "../src/assets/work_logo/adminpanel.png"  ;
 
 export const SkillsInfo = [
   {
@@ -196,9 +196,20 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+     
+    {
+  id: 0,
+  title: "Full Stack Admin Panel Access",
+  description: "A full-stack Admin Panel built with the MERN stack featuring secure user authentication (Signup/Login) and middleware-protected admin routes. The UI is designed using Material UI for a clean, responsive look. Backend includes routes for login, signup, OTP-based password reset, and encrypted password handling. Admins can securely manage users via a modern dashboard.",
+  image:  adminpanel, // use your imported image variable here
+  tags: [  "React JS", "Node.js", "Redux" , "Express", "MongoDB","Material UI", "Authentication", "JWT","bcrypt.js", "CORS", "MERN"  ],
+  github: "https://github.com/SHUBHAMREWA/admin-dashboard.git",
+  webapp: "https://admin-dashboard-five-opal.vercel.app/"
+}
+,
 
     {
-      id: 0,
+      id: 1,
       title: "Github Account Detective",
       description:
         " A modern web application that allows users to search and view detailed GitHub profiles. Built with React and the GitHub API, this tool provides a clean and intuitive interface to explore GitHub user information. ",
@@ -206,9 +217,10 @@ export const SkillsInfo = [
       tags: ["React JS", "HTML", "CSS", "JavaScript"  ,"API handling"],
       github: "https://github.com/SHUBHAMREWA/Git-profile-detective.git",
       webapp: "https://git-profile-detective.vercel.app/" ,
-    },
+    } 
+    ,
     {
-      id: 1,
+      id: 2,
       title: "Ai chat Bot",
       description:
         "This AI chatbot is built using React (Vite) and styled with Tailwind CSS. It uses the Google Gemini API to fetch responses. Features include chat history with localStorage, dark/light mode, auto-scroll, and Enter key support for input. The app uses React Hooks for state management and offers a smooth, responsive chat experience.",
@@ -218,7 +230,7 @@ export const SkillsInfo = [
       webapp: "https://shubhamrewa.github.io/AiTool/" ,
     },
     {
-      id: 2,
+      id: 3,
       title: "Hotel Management",
       description:
         "The Hotel Management System is a simple web application built using Vanilla JavaScript, HTML, and CSS. It allows users to sign up, log in, and manage hotel operations like customer check-in/check-out, room booking, and payment recording. Admins can access a panel to manage customers, rooms, and bookings, with reports on total bookings and revenue. All data is stored in the browser using localStorage to ensure it persists across sessions. Basic CSS and Bootstrap are used for styling and layout.",
@@ -228,7 +240,7 @@ export const SkillsInfo = [
       webapp: "https://shubhamsproject.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "to do app",
       description:
         "Todo app for normal Task view create , and delete using html css Javascript.",
