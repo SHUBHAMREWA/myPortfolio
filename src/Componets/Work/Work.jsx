@@ -40,7 +40,7 @@ const Work = () => {
 
 
             <div
-                className="grid gap-12 grid-cols-1 md:grid-cols-3 lg:gird-cols-3">
+                className="grid gap-10 grid-cols-1 md:grid-cols-3 lg:gird-cols-3">
 
                 {
                     projects.map((el, index) => {
@@ -52,15 +52,15 @@ const Work = () => {
                                     hover:shadow-purple-800 hover:translate-y-2  transition-transform duration-300"
                             >
                                 <div className="p-4">
-                                    <img src={el.image} alt="" className="w-full h-48 object-cover rounded-xl" />
+                                    <img src={el.image} alt="" className="w-full h-40 object-cover rounded-xl" />
                                 </div>
                              
-                             <div className="p-6 text-center">
-                                <h3 className="text-2xl text-white mb-2 font-bold">
+                             <div className="p-1 text-center">
+                                <h3 className="text-2xl text-white mb-1 font-bold">
                                     {el.title}
                                 </h3>
-                                 <p className="text-gray-500 pt-5 mb-4 line-clamp-3">{el.description}</p>
-                                 <div className="mb-4">
+                                 <p className="text-gray-500 pt-2 mb-4 line-clamp-3">{el.description}</p>
+                                 <div className="mb-4 line-clamp-3">
                                     {
                                         el.tags.map((el ,index)=>{
                                              return <span key={index} className="inline-block bg-[#251f38] 
