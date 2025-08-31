@@ -49,7 +49,9 @@ const Navbar = () => {
             <div      className="text-white w-full px-4 py-5 gap-4 flex justify-between  items-center">
                 {/* name */}
 
-                <div className="text-lg  font-semibold cursor-pointer">
+                <div 
+                onClick={()=>window.scrollTo({ top: 0, behavior: "smooth" })} 
+                 className="text-lg  font-semibold cursor-pointer">
 
                     <span className="text-[#8245ec]">&lt;</span>
                     <span className="text-white">Shubham</span>
