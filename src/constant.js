@@ -40,32 +40,36 @@ import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 
-import mpboardLogo from "./assets/education_logo/mpboard.png" ;
-import rgpvImg    from  "./assets/education_logo/rgpv.png" ;
+import mpboardLogo from "./assets/education_logo/mpboard.png";
+import rgpvImg from "./assets/education_logo/rgpv.png";
 
 // Project Section Logo's 
-import aiproject from "./assets/work_logo/aiproject.png"  ;
-import hotelmanagement from "./assets/work_logo/hotelmanagement.png" ;
-import todo  from  "./assets/work_logo/todoapp.png"  ;
-import gitdetective from "./assets/work_logo/githubdetective.png"  ;
-import adminpanel from "../src/assets/work_logo/adminpanel.png"  ;
+import aiproject from "./assets/work_logo/aiproject.png";
+import hotelmanagement from "./assets/work_logo/hotelmanagement.png";
+import todo from "./assets/work_logo/todoapp.png";
+import gitdetective from "./assets/work_logo/githubdetective.png";
+import adminpanel from "../src/assets/work_logo/adminpanel.png";
+import doctorEveryWhere from "./assets/work_logo/doctorEveryWhere.png";
+import kanvei from "./assets/work_logo/kanvei.png"
+
 
 export const SkillsInfo = [
   {
     title: 'Frontend',
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
+
       // { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       // { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
-      // { name: 'Next JS', logo: nextjsLogo },
+      { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'HTML', logo: htmlLogo },
+      { name: 'CSS', logo: cssLogo },
     ],
   },
   {
@@ -89,7 +93,7 @@ export const SkillsInfo = [
       // { name: 'Python', logo: pythonLogo },
       // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      // { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -98,156 +102,178 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      // { name: 'Postman', logo: postmanLogo },
+      { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
+
     ],
   },
 ];
 
-  export const experiences = [
-    
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
-  
-  export const education = [
-   
-    {
-      id: 0,
-      img:  rgpvImg,
-      school: "BSA College, Mathura",
-      date: "2018 - Aug 2021",
-      grade: "72.2%",
-      desc: "I pursued B.Tech in Electrical Engineering, where I not only gained theoretical and practical knowledge in the field but also participated in various college events and technical competitions. I was actively involved in campus activities, contributed to team projects, and worked on innovative academic projects that enhanced my technical and teamwork skills.",
-      degree: "Bachelor of Technology (B.Tech) – Electrical Engineering",
-    },
-    {
-      id: 1,
-      img: mpboardLogo,
-      school: "Government Higher Secondary School, Silpara, Rewa (M.P.)",
-      date: "2017 - 2018",
-      grade: "65%",
-      desc: "I completed my 12th standard in 2018 from the MP Board with a specialization in Mathematics stream, securing 65%. This phase strengthened my analytical thinking and problem-solving skill .",
-      degree: "MP Board(XII) - PCM ",
-    },
-    {
-      id: 2,
-      img: mpboardLogo,
-      school: "Government Higher Secondary School, Silpara, Rewa (M.P.)",
-      date: "2015 - 2016",
-      grade: "67%",
-      desc: "I completed my 10th standard in 2016 under the MP Board of Secondary Education with a score of 67%. During this period, I built a strong foundation in core subjects and developed discipline and consistency in studies. ",
-      degree: "MP Board(X)",
-    },
-  ];
-  
-  export const projects = [
-     
-    {
-  id: 0,
-  title: "Full Stack Admin Panel Access",
-  description: "A full-stack Admin Panel built with the MERN stack featuring secure user authentication (Signup/Login) and middleware-protected admin routes. The UI is designed using Material UI for a clean, responsive look. Backend includes routes for login, signup, OTP-based password reset, and encrypted password handling. Admins can securely manage users via a modern dashboard.",
-  image:  adminpanel, // use your imported image variable here
-  tags: [  "React JS", "Node.js", "Redux" , "Express", "MongoDB","Material UI", "Authentication", "JWT","bcrypt.js", "CORS", "MERN"  ],
-  github: "https://github.com/SHUBHAMREWA/admin-dashboard.git",
-  webapp: "https://admin-dashboard-five-opal.vercel.app/"
-}
-,
+export const experiences = [
 
-    {
-      id: 1,
-      title: "Github Account Detective",
-      description:
-        " A modern web application that allows users to search and view detailed GitHub profiles. Built with React and the GitHub API, this tool provides a clean and intuitive interface to explore GitHub user information. ",
-      image: gitdetective ,
-      tags: ["React JS", "HTML", "CSS", "JavaScript"  ,"API handling"],
-      github: "https://github.com/SHUBHAMREWA/Git-profile-detective.git",
-      webapp: "https://git-profile-detective.vercel.app/" ,
-    } 
-    ,
-    {
-      id: 2,
-      title: "Ai chat Bot",
-      description:
-        "This AI chatbot is built using React (Vite) and styled with Tailwind CSS. It uses the Google Gemini API to fetch responses. Features include chat history with localStorage, dark/light mode, auto-scroll, and Enter key support for input. The app uses React Hooks for state management and offers a smooth, responsive chat experience.",
-      image: aiproject ,
-      tags: ["React JS", "Tailwind css" , "HTML", "CSS", "JavaScript"  ,"API handling"],
-      github: "https://github.com/SHUBHAMREWA/AiTool.git",
-      webapp: "https://shubhamrewa.github.io/AiTool/" ,
-    },
-    {
-      id: 3,
-      title: "Hotel Management",
-      description:
-        "The Hotel Management System is a simple web application built using Vanilla JavaScript, HTML, and CSS. It allows users to sign up, log in, and manage hotel operations like customer check-in/check-out, room booking, and payment recording. Admins can access a panel to manage customers, rooms, and bookings, with reports on total bookings and revenue. All data is stored in the browser using localStorage to ensure it persists across sessions. Basic CSS and Bootstrap are used for styling and layout.",
-      image: hotelmanagement,
-      tags: [  "JavaScript" , "Bootstrap","HTML", "CSS" , ],
-      github: "https://github.com/SHUBHAMREWA/hotel-Management-Project.git",
-      webapp: "https://shubhamsproject.netlify.app/",
-    },
-    {
-      id: 4,
-      title: "to do app",
-      description:
-        "Todo app for normal Task view create , and delete using html css Javascript.",
-      image: todo ,
-      tags: ["html" , "css" , "js"],
-      github: "https://github.com/SHUBHAMREWA/toDoApp.git",
-      webapp: "https://todoappshubham.netlify.app/",
-    }
+  {
+    id: 0,
+    img: webverseLogo,
+    role: "Fullstack Developer",
+    company: "Webverse Digital",
+    date: "April 2024 - Present",
+    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "TypeScript",
+      "Node JS",
+      "Tailwind CSS",
+      "MongoDb",
+      "Redux",
+      " Next Js",
+    ],
+  },
+  {
+    id: 1,
+    img: agcLogo,
+    role: "Fullstack Engineer",
+    company: "Agumentik Group of Companies",
+    date: "July 2023 - March 2024",
+    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "JavaScript",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "SQL",
+    ],
+  },
+  {
+    id: 2,
+    img: newtonschoolLogo,
+    role: "Frontend Intern",
+    company: "Newton School",
+    date: "September 2021 - August 2022",
+    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+      "Figma",
+      "Material UI",
+    ],
+  },
+];
 
-  ];  
+export const education = [
+
+  {
+    id: 0,
+    img: rgpvImg,
+    school: "BSA College, Mathura",
+    date: "2018 - Aug 2021",
+    grade: "72.2%",
+    desc: "I pursued B.Tech in Electrical Engineering, where I not only gained theoretical and practical knowledge in the field but also participated in various college events and technical competitions. I was actively involved in campus activities, contributed to team projects, and worked on innovative academic projects that enhanced my technical and teamwork skills.",
+    degree: "Bachelor of Technology (B.Tech) – Electrical Engineering",
+  },
+  {
+    id: 1,
+    img: mpboardLogo,
+    school: "Government Higher Secondary School, Silpara, Rewa (M.P.)",
+    date: "2017 - 2018",
+    grade: "65%",
+    desc: "I completed my 12th standard in 2018 from the MP Board with a specialization in Mathematics stream, securing 65%. This phase strengthened my analytical thinking and problem-solving skill .",
+    degree: "MP Board(XII) - PCM ",
+  },
+  {
+    id: 2,
+    img: mpboardLogo,
+    school: "Government Higher Secondary School, Silpara, Rewa (M.P.)",
+    date: "2015 - 2016",
+    grade: "67%",
+    desc: "I completed my 10th standard in 2016 under the MP Board of Secondary Education with a score of 67%. During this period, I built a strong foundation in core subjects and developed discipline and consistency in studies. ",
+    degree: "MP Board(X)",
+  },
+];
+
+export const projects = [
+ 
+     {
+    id: 0,
+    title: "Kanvei.in - e-commerce",
+    description: "This is a full e-commerce application where users can browse and purchase products online. It was my first project where I explored the full potential of Next.js. I also implemented authentication using NextAuth (with both social and email login) and integrated Cloudinary for seamless image uploading.",
+    image: kanvei, // use your imported image variable here
+    tags: ["Next.js","razorpay", "Next-Auth" , "cloudinary", "Tailwind CSS", "React-icon", "Carausal","MongoDB" , "Context API",  "nodemailer" , "framer-motion"],
+    github: "https://github.com/SHUBHAMREWA/kanvei.in",
+    webapp: "kanvei.in"
+  }
+   ,
+
+  {
+    id: 0,
+    title: "Doctor Every Where",
+    description: "In this project, I learned a lot while building a full-stack application using Next.js. The app allows patients to book their own appointments, schedule consultation times, and also includes an email notification feature.",
+    image: doctorEveryWhere, // use your imported image variable here
+    tags: ["Next.js", "Tailwind CSS", "nodemailer" , "framer-motion"],
+    github: "https://github.com/SHUBHAMREWA/doctorEveryWhere.git",
+    webapp: "https://doctor-every-where.vercel.app/"
+  }
+
+  ,
+  {
+    id: 1,
+    title: "Full Stack Admin Panel Access",
+    description: "A full-stack Admin Panel built with the MERN stack featuring secure user authentication (Signup/Login) and middleware-protected admin routes. The UI is designed using Material UI for a clean, responsive look. Backend includes routes for login, signup, OTP-based password reset, and encrypted password handling. Admins can securely manage users via a modern dashboard.",
+    image: adminpanel, // use your imported image variable here
+    tags: ["React JS", "Node.js", "Redux", "Express", "MongoDB", "Material UI", "Authentication", "JWT", "bcrypt.js", "CORS", "MERN"],
+    github: "https://github.com/SHUBHAMREWA/admin-dashboard.git",
+    webapp: "https://admin-dashboard-five-opal.vercel.app/"
+  }
+  ,
+  {
+    id: 2,
+    title: "Github Account Detective",
+    description:
+      " A modern web application that allows users to search and view detailed GitHub profiles. Built with React and the GitHub API, this tool provides a clean and intuitive interface to explore GitHub user information. ",
+    image: gitdetective,
+    tags: ["React JS", "HTML", "CSS", "JavaScript", "API handling"],
+    github: "https://github.com/SHUBHAMREWA/Git-profile-detective.git",
+    webapp: "https://git-profile-detective.vercel.app/",
+  }
+  ,
+  {
+    id: 3,
+    title: "Ai chat Bot",
+    description:
+      "This AI chatbot is built using React (Vite) and styled with Tailwind CSS. It uses the Google Gemini API to fetch responses. Features include chat history with localStorage, dark/light mode, auto-scroll, and Enter key support for input. The app uses React Hooks for state management and offers a smooth, responsive chat experience.",
+    image: aiproject,
+    tags: ["React JS", "Tailwind css", "HTML", "CSS", "JavaScript", "API handling"],
+    github: "https://github.com/SHUBHAMREWA/AiTool.git",
+    webapp: "https://shubhamrewa.github.io/AiTool/",
+  },
+  {
+    id: 4,
+    title: "Hotel Management",
+    description:
+      "The Hotel Management System is a simple web application built using Vanilla JavaScript, HTML, and CSS. It allows users to sign up, log in, and manage hotel operations like customer check-in/check-out, room booking, and payment recording. Admins can access a panel to manage customers, rooms, and bookings, with reports on total bookings and revenue. All data is stored in the browser using localStorage to ensure it persists across sessions. Basic CSS and Bootstrap are used for styling and layout.",
+    image: hotelmanagement,
+    tags: ["JavaScript", "Bootstrap", "HTML", "CSS",],
+    github: "https://github.com/SHUBHAMREWA/hotel-Management-Project.git",
+    webapp: "https://shubhamsproject.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "to do app",
+    description:
+      "Todo app for normal Task view create , and delete using html css Javascript.",
+    image: todo,
+    tags: ["html", "css", "js"],
+    github: "https://github.com/SHUBHAMREWA/toDoApp.git",
+    webapp: "https://todoappshubham.netlify.app/",
+  }
+
+];  
