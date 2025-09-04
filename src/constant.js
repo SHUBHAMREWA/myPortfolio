@@ -209,7 +209,7 @@ export const projects = [
     image: kanvei, // use your imported image variable here
     tags: ["Next.js","razorpay", "Next-Auth" , "cloudinary", "Tailwind CSS", "React-icon", "Carausal","MongoDB" , "Context API",  "nodemailer" , "framer-motion"],
     github: "https://github.com/SHUBHAMREWA/kanvei.in",
-    webapp: "kanvei.in"
+    webapp: "https://kanvei.in"
   }
    ,
 
