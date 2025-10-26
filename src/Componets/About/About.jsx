@@ -15,21 +15,21 @@ const About = () => {
 
           <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
             {/* Greeting */}
-            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-text-dark dark:text-text-dark text-text-light mb-2 leading-tight">
               Hi I am
             </h1>
 
             {/* Name */}
-            <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-white mb-4 leading-tight">
+            <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-text-dark dark:text-text-dark text-text-light mb-4 leading-tight">
               Shubham Kushwaha
             </h2>
 
             {/* Skill with typing effect */}
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#8245ec] leading-tight">
-              <span className="text-white">I am a </span>
-              <span className="text-[#8245ec]">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary-green leading-tight">
+              <span className="text-text-dark dark:text-text-dark text-text-light">I am a </span>
+              <span className="text-primary-green">
                 <Typewriter
-                  words={['Web Developer', 'React Developer', 'Coder', 'Web Tech Learner']}
+                  words={['Full Stack Developer',  'Coder', 'Web Tech Learner']}
                   loop={false}
                   cursor
                   cursorStyle="_"
@@ -41,7 +41,7 @@ const About = () => {
             </h3>
              
              {/* About Me Paragraph */} 
-             <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>
+             <p className='text-base sm:text-lg md:text-lg text-gray-600 dark:text-gray-400 mb-10 mt-8 leading-relaxed'>
              Hi, I'm Shubham Kushwaha — a passionate web developer specializing in React.js and modern web technologies. 
              I enjoy learning new skills and solving problems daily.
               Currently, I Focused on frontend, exploring Node.js and modern web tech.
@@ -51,11 +51,9 @@ const About = () => {
          {/* Resume Button */}
           <a href="https://drive.google.com/file/d/1KH_Uw1YNrUZw7q-O5ICRia6B3CLsK01k/view?usp=sharing"
           target='_blank'
-          className='inline-block text-white  py-3 px-8  rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105'
-          style={{
-            background : "linear-gradient(90deg)",
-            boxShadow :"0 0 2px #8245ec , 0 0 2px #8245ec, 0 0 40px #8245ec"
-          }}
+          className='  shadow-green-400 shadow-md hover:shadow-green-400 hover:shadow-lg
+           inline-block text-black   py-3 px-8  rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105 bg-primary-green'
+         
           > 
           DOWNLOAD CV
           </a>
@@ -72,10 +70,10 @@ const About = () => {
           scale={1.05}
           transitionSpeed={1500}
           gyroscope = {true}
-          className='w-90 h-90  border-4 border-gray-400 rounded-3xl'
+          className='w-90 h-90  border-4 border-primary-green rounded-3xl'
           >
-            <img className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130, 69 ,236 ,0.5)]'
-            src={profileImg}/>  
+            <img className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(0,255,136,0.5)]'
+            src={profileImg}/>
         </Tilt>
           </div>
 

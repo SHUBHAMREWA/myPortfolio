@@ -19,6 +19,7 @@
     "react-parallax-tilt": "^1.7.295",
     "react-router-dom": "^7.6.0",
     "react-simple-typewriter": "^5.0.1",
+    "react-spinners": "^0.17.0",
     "react-toastify": "^11.0.5"
   },
   "devDependencies": {
