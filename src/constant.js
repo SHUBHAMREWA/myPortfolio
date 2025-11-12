@@ -32,6 +32,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import renderLogo from "./assets/tech_logo/render.png";
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -64,7 +65,6 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       // { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
@@ -81,6 +81,7 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       // { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'Next JS', logo: nextjsLogo },
       // { name: 'Firebase', logo: firebaseLogo },
       // { name: 'PostgreSQL', logo: postgreLogo },
     ],
@@ -106,7 +107,8 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
+      // { name: 'Netlify', logo: netlifyLogo },      
+      { name: 'Render', logo: renderLogo },
       { name: 'Figma', logo: figmaLogo },
 
     ],
