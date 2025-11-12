@@ -51,6 +51,7 @@ import gitdetective from "./assets/work_logo/githubdetective.png";
 import adminpanel from "../src/assets/work_logo/adminpanel.png";
 import doctorEveryWhere from "./assets/work_logo/doctorEveryWhere.png";
 import kanvei from "./assets/work_logo/kanvei.png"
+import Vihan from "./assets/work_logo/vihaan.png"
 
 
 export const SkillsInfo = [
@@ -213,19 +214,31 @@ export const projects = [
   }
    ,
 
+     {
+    id: 2,
+    title: "Vihaan Learning Platform",
+    description: `I built a full‑stack Learning Management System with React (Vite), Tailwind, Redux, and a Node.js/Express + MongoDB backend.  
+It supports OTP + Google authentication, educator course creation (modules/lessons), Cloudinary media, AI‑powered search (Google GenAI), and a student player with reviews`  ,
+    image: Vihan, // use your imported image variable here
+    tags: ["React.js", "Redux-toolkit" , "REST-API" , "Razor-Pay", "Tailwind CSS", "Express.js" , "Node.js" , "MongoDB" , "Cloudinary" , "Google GenAI" , "JWT Authentication" , "Nodemailer" , "etc.."],
+    github: "https://github.com/SHUBHAMREWA/LMS-project-Frontent.git",
+    webapp: "https://vihanclasses.vercel.app/"
+  } ,
+
   {
-    id: 0,
+    id: 1,
     title: "Doctor Every Where",
     description: "In this project, I learned a lot while building a full-stack application using Next.js. The app allows patients to book their own appointments, schedule consultation times, and also includes an email notification feature.",
     image: doctorEveryWhere, // use your imported image variable here
     tags: ["Next.js", "Tailwind CSS", "nodemailer" , "framer-motion"],
     github: "https://github.com/SHUBHAMREWA/doctorEveryWhere.git",
     webapp: "https://doctor-every-where.vercel.app/"
-  }
+  } ,
 
-  ,
+
+  
   {
-    id: 1,
+    id: 3,
     title: "Full Stack Admin Panel Access",
     description: "A full-stack Admin Panel built with the MERN stack featuring secure user authentication (Signup/Login) and middleware-protected admin routes. The UI is designed using Material UI for a clean, responsive look. Backend includes routes for login, signup, OTP-based password reset, and encrypted password handling. Admins can securely manage users via a modern dashboard.",
     image: adminpanel, // use your imported image variable here
@@ -235,7 +248,7 @@ export const projects = [
   }
   ,
   {
-    id: 2,
+    id: 4,
     title: "Github Account Detective",
     description:
       " A modern web application that allows users to search and view detailed GitHub profiles. Built with React and the GitHub API, this tool provides a clean and intuitive interface to explore GitHub user information. ",
@@ -246,7 +259,7 @@ export const projects = [
   }
   ,
   {
-    id: 3,
+    id: 5,
     title: "Ai chat Bot",
     description:
       "This AI chatbot is built using React (Vite) and styled with Tailwind CSS. It uses the Google Gemini API to fetch responses. Features include chat history with localStorage, dark/light mode, auto-scroll, and Enter key support for input. The app uses React Hooks for state management and offers a smooth, responsive chat experience.",
@@ -256,7 +269,7 @@ export const projects = [
     webapp: "https://shubhamrewa.github.io/AiTool/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Hotel Management",
     description:
       "The Hotel Management System is a simple web application built using Vanilla JavaScript, HTML, and CSS. It allows users to sign up, log in, and manage hotel operations like customer check-in/check-out, room booking, and payment recording. Admins can access a panel to manage customers, rooms, and bookings, with reports on total bookings and revenue. All data is stored in the browser using localStorage to ensure it persists across sessions. Basic CSS and Bootstrap are used for styling and layout.",
@@ -265,15 +278,15 @@ export const projects = [
     github: "https://github.com/SHUBHAMREWA/hotel-Management-Project.git",
     webapp: "https://shubhamsproject.netlify.app/",
   },
-  {
-    id: 5,
-    title: "to do app",
-    description:
-      "Todo app for normal Task view create , and delete using html css Javascript.",
-    image: todo,
-    tags: ["html", "css", "js"],
-    github: "https://github.com/SHUBHAMREWA/toDoApp.git",
-    webapp: "https://todoappshubham.netlify.app/",
-  }
+  // {
+  //   id: 7,
+  //   title: "to do app",
+  //   description:
+  //     "Todo app for normal Task view create , and delete using html css Javascript.",
+  //   image: todo,
+  //   tags: ["html", "css", "js"],
+  //   github: "https://github.com/SHUBHAMREWA/toDoApp.git",
+  //   webapp: "https://todoappshubham.netlify.app/",
+  // }
 
 ];  
