@@ -220,7 +220,7 @@ export const projects = [
     description: `I built a full‑stack Learning Management System with React (Vite), Tailwind, Redux, and a Node.js/Express + MongoDB backend.  
 It supports OTP + Google authentication, educator course creation (modules/lessons), Cloudinary media, AI‑powered search (Google GenAI), and a student player with reviews`  ,
     image: Vihan, // use your imported image variable here
-    tags: ["React.js", "Redux-toolkit" , "REST-API" , "Razor-Pay", "Tailwind CSS", "Express.js" , "Node.js" , "MongoDB" , "Cloudinary" , "Google GenAI" , "JWT Authentication" , "Nodemailer" , "etc.."],
+    tags: ["React.js", "Redux-toolkit" , "REST-API" ,"AI" , "Razor-Pay", "Tailwind CSS", "Express.js" , "Node.js" , "MongoDB" , "Cloudinary" , "Google GenAI" , "JWT Authentication" , "Nodemailer" , "etc.."],
     github: "https://github.com/SHUBHAMREWA/LMS-project-Frontent.git",
     webapp: "https://vihanclasses.vercel.app/"
   } ,
