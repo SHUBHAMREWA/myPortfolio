@@ -58,7 +58,7 @@ return (
                     className="w-full h-full object-cover"
                   />
                 </div>
-
+ 
                 {/* shool Name, and Date */}
                 <div className="flex flex-col justify-between">
                   <div>
