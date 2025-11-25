@@ -59,6 +59,7 @@ return (
                   />
                 </div>
  
+
                 {/* shool Name, and Date */}
                 <div className="flex flex-col justify-between">
                   <div>
@@ -69,7 +70,7 @@ return (
                       {education.date}
                     </h4>
                   </div>
-                  {/* Date at the bottom */}
+                  {/* Date at the bottom */ }
                   {/* <p className="text-sm text-gray-600 dark:text-gray-500 mt-2">{education.date}</p> */}
                 </div>
               </div>
