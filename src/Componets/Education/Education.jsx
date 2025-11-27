@@ -76,6 +76,7 @@ return (
               </div>
 
               <p className="mt-4 text-gray-700 dark:text-gray-400 font-bold"> Grade : {education.grade}</p>
+              
               <p className="mt-4 text-gray-700 dark:text-gray-400 ">{education.desc}</p>
             </div>
           </div>
