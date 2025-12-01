@@ -42,14 +42,11 @@ const About = () => {
              
              {/* About Me Paragraph */} 
              <p className='text-base sm:text-lg md:text-lg text-gray-600 dark:text-gray-400 mb-10 mt-8 leading-relaxed'>
-             Hi, I'm Shubham Kushwaha — a passionate web developer specializing in React.js and modern web technologies. 
-             I enjoy learning new skills and solving problems daily.
-              Currently, I Focused on frontend, exploring Node.js and modern web tech.
-
+           Hi, I'm Shubham Kushwaha — a MERN stack developer with a strong focus on building modern, responsive, and user-friendly web applications. I enjoy learning new skills, solving real-world problems, and continuously improving my development experience
              </p>
 
          {/* Resume Button */}
-          <a href="https://drive.google.com/file/d/1C8erFsv1JEMgN9nVgpalowGQ7Y7xthQA/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1-j7xVS2uMRNo9yBDb-n9Vg4K6GvHhsdZ/view?usp=sharing"
           target='_blank'
           className='  shadow-green-400 shadow-md hover:shadow-green-400 hover:shadow-lg
            inline-block text-black   py-3 px-8  rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105 bg-primary-green'
