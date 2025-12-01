@@ -46,7 +46,7 @@ const About = () => {
              </p>
 
          {/* Resume Button */}
-          <a href="https://drive.google.com/file/d/1-j7xVS2uMRNo9yBDb-n9Vg4K6GvHhsdZ/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1-abZUgoXTR9KUE6ev2r3XZ6n5THTrOI9/view?usp=sharing"
           target='_blank'
           className='  shadow-green-400 shadow-md hover:shadow-green-400 hover:shadow-lg
            inline-block text-black   py-3 px-8  rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105 bg-primary-green'
@@ -67,7 +67,7 @@ const About = () => {
           scale={1.05}
           transitionSpeed={1500}
           gyroscope = {true}
-          className='w-[90%] h-[80%]  border-4 border-primary-green rounded-3xl'
+          className='w-[80%] h-[80%]  border-4 border-primary-green rounded-3xl'
           >
             <img className='w-[100%] h-[100%] rounded-full object-cover drop-shadow-[0_10px_20px_rgba(0,255,136,0.5)]'
             src={profileImg}/>
