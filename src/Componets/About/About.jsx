@@ -67,9 +67,9 @@ const About = () => {
           scale={1.05}
           transitionSpeed={1500}
           gyroscope = {true}
-          className='w-90 h-90  border-4 border-primary-green rounded-3xl'
+          className='w-[90%] h-[80%]  border-4 border-primary-green rounded-3xl'
           >
-            <img className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(0,255,136,0.5)]'
+            <img className='w-[100%] h-[100%] rounded-full object-cover drop-shadow-[0_10px_20px_rgba(0,255,136,0.5)]'
             src={profileImg}/>
         </Tilt>
           </div>
