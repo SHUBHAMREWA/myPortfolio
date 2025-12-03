@@ -44,6 +44,7 @@ const About = () => {
              <p className='text-base sm:text-lg md:text-lg text-gray-600 dark:text-gray-400 mb-10 mt-8 leading-relaxed'>
            Hi, I'm Shubham Kushwaha — a MERN stack developer with a strong focus on building modern, responsive, and user-friendly web applications. I enjoy learning new skills, solving real-world problems, and continuously improving my development experience
              </p>
+             
 
          {/* Resume Button */}
           <a href="https://drive.google.com/file/d/1cIlMoEfD7rxnA9yTty03aa8weuNTdpWP/view?usp=sharing"
