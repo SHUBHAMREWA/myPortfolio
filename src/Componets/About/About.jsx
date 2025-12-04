@@ -45,6 +45,7 @@ const About = () => {
            Hi, I'm Shubham Kushwaha — a MERN stack developer with a strong focus on building modern, responsive, and user-friendly web applications. I enjoy learning new skills, solving real-world problems, and continuously improving my development experience
              </p>
              
+             
 
          {/* Resume Button */}
           <a href="https://drive.google.com/file/d/1cIlMoEfD7rxnA9yTty03aa8weuNTdpWP/view?usp=sharing"
