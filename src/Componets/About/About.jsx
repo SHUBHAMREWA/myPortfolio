@@ -40,6 +40,7 @@ const About = () => {
               </span>
             </h3>
             
+            
              
              {/* About Me Paragraph */} 
              <p className='text-base sm:text-lg md:text-lg text-gray-600 dark:text-gray-400 mb-10 mt-8 leading-relaxed'>
