@@ -1,7 +1,19 @@
-import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube ,FaGithub } from "react-icons/fa";
+import React, { useEffect , useState } from "react";
+import { FaFacebook, FaLinkedin, FaInstagram, FaYoutube ,FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
+     
+    const [year , setYear] = useState("") ; 
+
+    useEffect(()=>{  
+         
+      let date = new Date() ; 
+        setYear(date.getFullYear());
+       
+    } , [])
+   
   // Smooth scroll function
   const handleScroll = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -39,7 +51,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             // { icon: <FaFacebook />, link: "https://www.facebook.com/tarun.kaushik.3511041/" },
-            { icon: <FaTwitter />, link: "https://x.com/Shubham5932" },
+            { icon: <FaXTwitter />, link: "https://x.com/Shubham5932" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/shubham-kushwaha-rewa17/" },
             { icon: <FaGithub  />, link: "https://github.com/SHUBHAMREWA" },
 
@@ -61,7 +73,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-600 dark:text-gray-400 mt-6">
-          © 2025 Shubham Kushwaha. All rights reserved.
+          © {year} Shubham Kushwaha. All rights reserved.
         </p>
       </div>
     </footer>
