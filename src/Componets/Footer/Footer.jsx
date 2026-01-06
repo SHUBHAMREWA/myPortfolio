@@ -9,6 +9,7 @@ const Footer = () => {
 
     useEffect(()=>{  
          
+         
       let date = new Date() ; 
         setYear(date.getFullYear());
        
