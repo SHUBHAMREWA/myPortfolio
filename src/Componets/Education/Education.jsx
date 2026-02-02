@@ -38,7 +38,8 @@ return (
             <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-primary-green w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
               <img
                 src={education.img}
-                alt={education.school}
+                alt={education.alt || education.school}
+                title={education.title || education.school}
                 className="w-full h-full object-cover rounded-full"
               />
             </div>
@@ -55,7 +56,8 @@ return (
                 <div className="w-16 h-16 bg-white rounded-md overflow-hidden">
                   <img
                     src={education.img}
-                    alt={education.school}
+                    alt={education.alt || education.school}
+                    title={education.title || education.school}
                     className="w-full h-full object-cover"
                   />
                 </div>

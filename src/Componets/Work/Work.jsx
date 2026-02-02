@@ -52,7 +52,7 @@ const Work = () => {
                                     hover:shadow-primary-green hover:translate-y-2  transition-transform duration-300"
                             >
                                 <div className="p-4">
-                                    <img src={el.image} alt="" className="w-full h-40 object-cover rounded-xl" />
+                                    <img src={el.image} alt={el.alt || el.title} title={el.title} className="w-full h-40 object-cover rounded-xl" />
                                 </div>
                              
                              <div className="p-1 text-center">
@@ -103,7 +103,7 @@ const Work = () => {
                     <div className="w-100 flex justify-center bg-card-light dark:bg-gray-900 px-4">
                           <img  height={120}
                           className=" w-[80%] sm:w-[90%]  object-contain rounded-xl shadow-2xl "
-                          src={selectedProject.image} alt="selected project_title" />
+                          src={selectedProject.image} alt={selectedProject.alt || selectedProject.title} title={selectedProject.title} />
                     </div>
 
                     <div className="lg:p-8 p-6">

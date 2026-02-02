@@ -63,7 +63,7 @@ const Skill = () => {
                                                             >
                                                                 <img 
                                                                 className="w-6 h-6 sm:w-8 sm:h-8"
-                                                                src={skill.logo} alt={skill.name}/>
+                                                                src={skill.logo} alt={skill.alt || skill.name} title={skill.title || skill.name}/>
                                                                 <span className="text-xs sm:text-sm text-gray-700 dark:text-gray-300">{skill.name}</span>
                                                             </div>
                                                  })                                                
