@@ -1,6 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter';
 import  Tilt from "react-parallax-tilt"
-import profileImg  from "../../assets/profileimg.jpeg"
 
 const About = () => {
   return (
@@ -75,7 +74,7 @@ const About = () => {
           className='w-[80%] h-[80%]  border-4 border-primary-green rounded-3xl'
           >
             <img className='w-[100%] h-[100%] rounded-full object-cover drop-shadow-[0_10px_20px_rgba(0,255,136,0.5)]'
-            src={profileImg} alt='Shubham Kushwaha - Full Stack Developer Profile Picture' title='Shubham Kushwaha - MERN Stack Developer'  />
+            src="/profileimg.jpeg" alt='Shubham Kushwaha - Full Stack Developer Profile Picture' title='Shubham Kushwaha - MERN Stack Developer' loading="eager" />
         </Tilt>
           </div>
 
