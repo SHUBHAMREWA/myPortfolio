@@ -46,10 +46,10 @@ const Navbar = () => {
 
     return (
 
-        <nav className={`fixed top-0 w-full flex z-50 transition duration-300 px-[7vw] 
+        <nav className={`fixed top-0 w-full flex z-50 transition duration-300 px-4 md:px-[7vw] 
               dark:bg-bg-dark bg-bg-light bg-opacity-90  backdrop-blur-md shadow-md`}>
 
-            <div      className="text-text-dark dark:text-text-dark text-text-light w-full px-4 py-5 gap-4 flex justify-between  items-center">
+            <div      className="text-text-dark dark:text-text-dark text-text-light w-full px-0 md:px-4 py-5 gap-4 flex justify-between  items-center">
                 {/* name */}
 
                 <div 

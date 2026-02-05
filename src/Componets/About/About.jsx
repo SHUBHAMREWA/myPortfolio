@@ -1,7 +1,26 @@
 import { Typewriter } from 'react-simple-typewriter';
 import  Tilt from "react-parallax-tilt"
+import { useEffect } from 'react';
 
 const About = () => {
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        const btn = document.getElementById("desktop-btn");
+        if (btn) {
+          btn.style.display = "block";
+        }
+      }
+    };
+
+    // Initial check
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <>
       <section
@@ -51,6 +70,7 @@ const About = () => {
          {/* Resume Button */}
           <a href="https://drive.google.com/file/d/1UPb3Lh_siof9svINwlHbkxvpVIOmqWfl/view?usp=sharing"
           target='_blank'
+          id="desktop-btn"
           className='  shadow-green-400 shadow-md hover:shadow-green-400 hover:shadow-lg
            inline-block text-black py-2 px-4 md:py-3 md:px-8  rounded-full mt-2 md:mt-5 text-xs md:text-lg font-bold transition duration-300 hover:scale-105 bg-primary-green'
          
