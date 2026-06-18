@@ -68,7 +68,7 @@ const About = () => {
 
 
          {/* Resume Button */}
-          <a href="https://drive.google.com/file/d/1UPb3Lh_siof9svINwlHbkxvpVIOmqWfl/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1pPOmiG7aT35l-xPPwNfhruC15MjZ-xp-/view?usp=sharing"
           target='_blank'
           id="desktop-btn"
           className='  shadow-green-400 shadow-md hover:shadow-green-400 hover:shadow-lg
